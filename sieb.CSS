@@ -1,0 +1,52 @@
+body {
+  background-color: LightSeaGreen;
+}
+
+h1 {
+  color: SpringGreen;
+  text-align: center;
+}
+
+#playlist {
+  float: left;
+  width: 30%;
+  background: LightBlue;
+  height: 300px;
+  margin: 5px;
+}
+
+.NyoenSieb_button {
+  background-color: DarkSeaGreen;
+  border: none;
+  color: Black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 95%;
+}
+
+.NyoenSieb_button:hover {
+  color: white;
+  background-color: red;
+  border: solid white 1px;
+}
+
+#fotos {
+  float: left;
+  width: 65%;
+  height: 310px;
+  background: PowderBlue;
+  margin: 5px;
+}
+
+#eerste_foto, #tweede_foto, #derde_foto, #vierde_foto {
+  display: none;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
